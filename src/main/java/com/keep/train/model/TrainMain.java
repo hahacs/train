@@ -4,44 +4,64 @@ import java.util.Date;
 
 public class TrainMain {
 
-	/**主键 */
-	private String autoId;
-	/**训练id */
-	private String projcetNo;
-	/**训练项目 */
-	private String projectName;
-	/**描述 */
-	private String description;
-	/**备注 */
-	private String remark;
-	/**创建时间 */
-	private Date createTime;
-	/**更新时间 */
-	private Date updateTime;
+	private String id;
+	private String trainTitle; 
+	private String trainContent; 
+	private String trainType; 
+	private Long trainTimes; 
+	private String trainAllTime; 
+	private Date lastTrainTime; 
+	private Date date_created; 
+	private String remark; 
+	private String planFlag;
 	
-	public String getAutoId() {
-		return autoId;
+	public String getId() {
+		return id;
 	}
-	public void setAutoId(String autoId) {
-		this.autoId = autoId;
+	public void setId(String id) {
+		this.id = id;
 	}
-	public String getProjcetNo() {
-		return projcetNo;
+	public String getTrainTitle() {
+		return trainTitle;
 	}
-	public void setProjcetNo(String projcetNo) {
-		this.projcetNo = projcetNo;
+	public void setTrainTitle(String trainTitle) {
+		this.trainTitle = trainTitle;
 	}
-	public String getProjectName() {
-		return projectName;
+	public String getTrainContent() {
+		return trainContent;
 	}
-	public void setProjectName(String projectName) {
-		this.projectName = projectName;
+	public void setTrainContent(String trainContent) {
+		this.trainContent = trainContent;
 	}
-	public String getDescription() {
-		return description;
+	public String getTrainType() {
+		return trainType;
 	}
-	public void setDescription(String description) {
-		this.description = description;
+	public void setTrainType(String trainType) {
+		this.trainType = trainType;
+	}
+	public Long getTrainTimes() {
+		return trainTimes;
+	}
+	public void setTrainTimes(Long trainTimes) {
+		this.trainTimes = trainTimes;
+	}
+	public String getTrainAllTime() {
+		return trainAllTime;
+	}
+	public void setTrainAllTime(String trainAllTime) {
+		this.trainAllTime = trainAllTime;
+	}
+	public Date getLastTrainTime() {
+		return lastTrainTime;
+	}
+	public void setLastTrainTime(Date lastTrainTime) {
+		this.lastTrainTime = lastTrainTime;
+	}
+	public Date getDate_created() {
+		return date_created;
+	}
+	public void setDate_created(Date date_created) {
+		this.date_created = date_created;
 	}
 	public String getRemark() {
 		return remark;
@@ -49,17 +69,13 @@ public class TrainMain {
 	public void setRemark(String remark) {
 		this.remark = remark;
 	}
-	public Date getCreateTime() {
-		return createTime;
+	public String getPlanFlag() {
+		return planFlag;
 	}
-	public void setCreateTime(Date createTime) {
-		this.createTime = createTime;
+	public void setPlanFlag(String planFlag) {
+		this.planFlag = planFlag;
 	}
-	public Date getUpdateTime() {
-		return updateTime;
-	}
-	public void setUpdateTime(Date updateTime) {
-		this.updateTime = updateTime;
-	}
+	
+	
 	
 }
